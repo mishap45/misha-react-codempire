@@ -17,7 +17,7 @@ const bigButton = screen.width / 2;
 const CustomButton:React.FC<CustomButtonTypes> = ({ text, onPress, typeButton }) => {
 
     const [loaded] = useFonts({
-        SyneMono: require('../assets/fonts/SyneMono-Regular.ttf'),
+        SyneMono: require('../../assets/fonts/SyneMono-Regular.ttf'),
     });
 
     if (!loaded) {
