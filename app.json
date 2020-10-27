@@ -1,12 +1,16 @@
 {
-  "name": "misha-react-codempire",
-  "displayName": "misha-react-codempire",
   "expo": {
-    "name": "misha-react-codempire",
-    "slug": "pretty calculator",
+    "name": "PrettyCalculator",
+    "icon": "./assets/calculator.png",
+    "slug": "PrettyCalculator",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "ios": {
+      "bundleIdentifier": "com.mishaReact.PrettyCalculator",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.mishaReact.PrettyCalculator",
+      "versionCode": 1
+    }
   }
 }

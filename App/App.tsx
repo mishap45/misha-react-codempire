@@ -1,7 +1,6 @@
 import React from 'react'
 import {StatusBar} from 'expo-status-bar'
 import {SafeAreaView, StyleSheet, Text, View} from 'react-native'
-import {useFonts} from 'expo-font'
 
 
 import Row from './components/Row'
@@ -19,14 +18,6 @@ type AppPropsTypes = {
 
 const App: React.FC<AppPropsTypes> = ({currentValue, numberFunc, operationPlus_or_Minus, createAction,
                                           operationClean, operationEqual}) => {
-
-    const loaded = useFonts({
-        VarelaRoundRegular: require('./assets/fonts/VarelaRound-Regular.ttf'),
-    });
-    if (!loaded) {
-        return null;
-    }
-
     return (
         <View style={styles.container}>
             <StatusBar style="auto"/>
