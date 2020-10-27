@@ -1,0 +1,12 @@
+{
+  "name": "misha-react-codempire",
+  "displayName": "misha-react-codempire",
+  "expo": {
+    "name": "misha-react-codempire",
+    "slug": "misha-react-codempire",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
