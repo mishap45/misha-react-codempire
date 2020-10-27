@@ -9,3 +9,4 @@
 ##### Click download the .zip file. Extract the contents of the zip file, then open your terminal, change to the project directory, and:
 ###### - npm install
 ###### - npm start
+#### Url on project: https://exp.host/@milov/PrettyCalculator/index.exp?sdkVersion=39.0.0
